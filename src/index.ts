@@ -16,7 +16,7 @@ Server.buildServices(app);
 // Just checking if given PORT variable is an integer or not
 let port = parseInt(process.env.PORT || "");
 if (isNaN(port) || port === 0) {
-  port = 4000;
+  port = 3000;
 }
 
 app.listen(port, "0.0.0.0", () => {
