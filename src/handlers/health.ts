@@ -13,7 +13,7 @@ class Health {
   @GET
   index(): { status: string; version: string } {
     return resOK({
-      status: "ok",
+      status: "fine",
       version: version,
     });
   }
